@@ -1,0 +1,112 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "0xlews"
+theme = "PaperMod"
+
+# Enable syntax highlighting for code blocks
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+
+# Enable Archive functionality
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# Enable search page
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+# Default theme "auto", "light", "dark"
+defaultTheme = "dark"
+disableThemeToggle = false
+
+# Favicon configuration
+[params.assets]
+favicon = "/favicon/favicon.ico"
+favicon16x16 = "/favicon/favicon-16x16.png"
+favicon32x32 = "/favicon/favicon-32x32.png"
+apple_touch_icon = "/favicon/apple-touch-icon.png"
+safari_pinned_tab = "/favicon/safari-pinned-tab.svg"
+
+# Enable search
+enableSearch = true
+enableRobotsTXT = true
+
+# Show reading time on posts
+ShowReadingTime = true
+
+# Show table of contents
+ShowToc = true
+TocOpen = false
+
+# Show post navigation (prev/next)
+ShowPostNavLinks = true
+
+# Show breadcrumbs
+ShowBreadCrumbs = true
+
+# Show code copy buttons
+ShowCodeCopyButtons = true
+
+# Show word count
+ShowWordCount = true
+
+# Show last modified date
+ShowLastMod = true
+
+# Custom CSS
+customCSS = ["css/custom.css"]
+
+# Archives page configuration
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+
+[params.homeInfoParams]
+Title = "Welcome"
+Content = """
+I'm Lewis, a cyber security analyst working in security operations, incident response and other general research at Microsoft. This blog contains my research, personal thoughts, and projects. Feel free to explore my [posts](/posts/) or search for specific topics using the [search](/search/) function.
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/lewiswigmore"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://x.com/0xlews"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://aka.ms/lewiswigmore"
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 30
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 40
