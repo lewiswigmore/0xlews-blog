@@ -9,7 +9,7 @@ description = "A breakdown of a targeted phishing attack on a Meta account using
 
 # Meta Account Takeover: The ig.me Phishing Technique
 
-On 26 May 2025, a targeted phishing attack compromised a user’s Meta accounts, leveraging Instagram’s "ig.me" link shortener to steal accounts and gain unauthorised access. The incident exposed the complications of Meta’s account system and again reinforces the need for multi-factor authentication (MFA). This is a brief (hopefully) look at how the attack unfolded, why it still works, and what we can learn from it.
+On 24 March 2025, a targeted phishing attack compromised a user’s Meta accounts, leveraging Instagram’s "ig.me" link shortener to steal accounts and gain unauthorised access. The incident exposed the complications of Meta’s account system and again reinforces the need for multi-factor authentication (MFA). This is a brief (hopefully) look at how the attack unfolded, why it still works, and what we can learn from it.
 
 ## What Happened?
 
